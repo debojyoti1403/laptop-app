@@ -25,7 +25,8 @@ if "filters" not in st.session_state:
     st.session_state.filters = {} # Store user answers here
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Hello! I am,Betty your Personal-Laptop Research Agent. To start, what is your **primary purpose** for this laptop?"}
+        {"role": "assistant", "content": "Hello! I am,**Betty**.
+        Your Personal Laptop Research Agent. To start, what is your **primary purpose** for this laptop?"}
     ]
 
 # 4. Helper Function to Move to Next Question
